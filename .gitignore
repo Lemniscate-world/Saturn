@@ -1,4 +1,19 @@
-# Files to protect from git commits
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+
+# SQLite databases (local data)
+*.db
+
+
 # These files contain private data, work-in-progress content, or sensitive information
 
 # Mom Test private data
@@ -35,3 +50,30 @@ Thumbs.db
 backups/
 *.backup
 *.bak
+
+# Node and Tauri
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+node_modules
+dist
+dist-ssr
+*.local
+src-tauri/target
+
+# --- kuro-rules private research ---
+mom_test_results.md
+mom_test_script.md
+decision.md
+ideas.md
+architecture_notes.md
+concept/
+research/private/
+research/raw/
+research/interviews/
+research/contact-lists/
+notes-private.md
+contacts.csv
+leads.csv
+prospects.csv
+# --- end kuro-rules private research ---

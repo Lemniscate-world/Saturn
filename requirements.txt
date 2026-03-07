@@ -6,7 +6,7 @@ uvicorn[standard]==0.24.0
 pydantic==2.5.0
 
 # Database
-sqlite3  # Built-in Python library
+# sqlite3 is a built-in Python module (no pip install needed)
 
 # Clipboard Monitoring
 pyperclip==1.8.2

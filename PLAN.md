@@ -14,7 +14,7 @@ Transform the existing Echo SRS system into a complete desktop flashcard learnin
 - ✅ Graph centrality (PageRank) for prioritization
 - ✅ Basic API endpoints
 
-**Current Progress: 25%** (Core SRS engine complete)
+**Current Progress: 40%** (Phase 1 complete -- Core SRS + AI Flashcard Generation)
 
 ## Phase 1: AI Flashcard Generation (Weeks 1-2)
 **Target: 40% completion**
